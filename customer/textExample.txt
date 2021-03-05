@@ -1,0 +1,173 @@
+I am happy for you to see this Fifth Edition of Introduction to Linear Algebra.
+This is the text for my video lectures on MIT's OpenCourseWare (ocw.mit.edu and
+also YouTube). I hope those lectures will be useful to you (maybe even enjoyable!).
+Hundreds of coll�ges and universities have chosen this textbook for their basic linear
+algebra course. A sabbatical gave me a chance to prepare two new chapters about
+probability and statistics and understanding data. Thousands of other improvements tooprobably only noticed by the author. . . Here is a new addition for students and all readers:
+Every section opens with a brief summary to explain its contents. When you
+read a new section, and when you revisit a section to review and organize
+it in your mind, those lines are a quick guide and an aid to memory.
+Another big change comes on this book's website math.mit.edu/linearalgebra. That site
+now contains solutions to the Problem Sets in the book. With unlimited space, this is
+much more flexible than printing short solutions. There are three key websites :
+ocw.mit.edu Messages come from thousands of students and faculty about linear algebra
+on this OpenCourseWare site. The 18.06 and 18.06 SC courses include video lectures of
+a complete semester of classes. Those lectures offer an independent review of the whole
+subject based on this textbook-the professor's time stays free and the student's time can
+be 2 a.m. (The reader doesn't have to be in a class at all.) Six million viewers around the
+world have seen these videos (amazing). I hope you find them helpful.
+web.mit.edu/18.06 This site has homeworks and exams (with solutions) for the current
+course as it is taught, and as far back as 1996. There are also review questions, Java demos,
+Teaching Codes, and short essays (and the video lectures). My goal is to make this book
+as useful to you as possible, with all the course material we can provide.
+math.mit.edu/linearalgebra This has become an active website. It now has Solutions
+to Exercises-with space to explain ideas. There are also new exercises from many different sources-practice problems, development of textbook examples, codes in MATLAB
+and Julia and Python, plus whole collections of exams (18.06 and others) for review.
+Please visit this linear algebra site. Send suggestions to linearalgebrabook@gmail.com 
+The cover shows the Four Fundamental Subspaces-the row space and nullspace are
+on the left side, the column space and the nulls pace of A
+T are on the right. It is not usual
+to put the central ideas of the subject on display like this! When you meet those four spaces
+in Chapter 3, you will understand why that picture is so central to linear algebra.
+Those were named the Four Fundamental Subspaces in my first book, and they start
+from a matrix A. Each row of A is a vector in n-dimensional space. When the matrix
+has m rows, each column is a vector in m-dimensional space. The crucial operation in
+linear algebra is to take linear combinations of column vectors. This is exactly the result
+of a matrix-vector multiplication. Ax is a combination of the columns of A.
+When we take all combinations Ax of the column vectors, we get the column space.
+If this space includes the vector b, we can solve the equation Ax = b.
+May I call special attention to Section 1.3, where these ideas come early-with two
+specific examples. You are not expected to catch every detail of vector spaces in one day!
+But you will see the first matrices in the book, and a picture of their column spaces.
+There is even an inverse matrix and its connection to calculus. You will be learning the
+language of linear algebra in the best and most efficient way: by using it.
+Every section of the basic course ends with a large collection of review problems. They
+ask you to use the ideas in that section--the dimension of the column space, a basis for
+that space, the rank and inverse and determinant and eigenvalues of A. Many problems
+look for computations by hand on a small matrix, and they have been highly praised. The
+Challenge Problems go a step further, and sometimes deeper. Let me give four examples:
+Section 2.1: Which row exchanges of a Sudoku matrix produce another Sudoku matrix?
+Section 2.7: If Pis a permutation matrix, why is some power p
+k equal to I?
+Section 3.4: If Ax= band Cx = b have the same solutions for every b, does A equal C?
+Section 4.1: What conditions on the four vectors r, n, c, £ allow them to be bases for
+the row space, the nullspace, the column space, and the left nullspace of a 2 by 2 matrix?
+The Start of the Course
+The equation Ax = b uses the language of linear combinations right away. The vector
+Ax is a combination of the columns of A. The equation is asking for a combination that
+produces b. The solution vector x comes at three levels and all are important:
+1. Direct solution to find x by forward elimination and back substitution.
+2. Matrix solution using the inverse matrix: x = A-1
+b (if A has an inverse).
+3. Particular solution (to Ay = b) plus nullspace solution (to Az = 0).
+That vector space solution x = y + z is shown on the cover of the book.The cover shows the Four Fundamental Subspaces-the row space and nullspace are
+on the left side, the column space and the nulls pace of A
+T are on the right. It is not usual
+to put the central ideas of the subject on display like this! When you meet those four spaces
+in Chapter 3, you will understand why that picture is so central to linear algebra.
+Those were named the Four Fundamental Subspaces in my first book, and they start
+from a matrix A. Each row of A is a vector in n-dimensional space. When the matrix
+has m rows, each column is a vector in m-dimensional space. The crucial operation in
+linear algebra is to take linear combinations of column vectors. This is exactly the result
+of a matrix-vector multiplication. Ax is a combination of the columns of A.
+When we take all combinations Ax of the column vectors, we get the column space.
+If this space includes the vector b, we can solve the equation Ax = b.
+May I call special attention to Section 1.3, where these ideas come early-with two
+specific examples. You are not expected to catch every detail of vector spaces in one day!
+But you will see the first matrices in the book, and a picture of their column spaces.
+There is even an inverse matrix and its connection to calculus. You will be learning the
+language of linear algebra in the best and most efficient way: by using it.
+Every section of the basic course ends with a large collection of review problems. They
+ask you to use the ideas in that section--the dimension of the column space, a basis for
+that space, the rank and inverse and determinant and eigenvalues of A. Many problems
+look for computations by hand on a small matrix, and they have been highly praised. The
+Challenge Problems go a step further, and sometimes deeper. Let me give four examples:
+Section 2.1: Which row exchanges of a Sudoku matrix produce another Sudoku matrix?
+Section 2.7: If Pis a permutation matrix, why is some power p
+k equal to I?
+Section 3.4: If Ax= band Cx = b have the same solutions for every b, does A equal C?
+Section 4.1: What conditions on the four vectors r, n, c, £ allow them to be bases for
+the row space, the nullspace, the column space, and the left nullspace of a 2 by 2 matrix?
+The Start of the Course
+The equation Ax = b uses the language of linear combinations right away. The vector
+Ax is a combination of the columns of A. The equation is asking for a combination that
+produces b. The solution vector x comes at three levels and all are important:
+1. Direct solution to find x by forward elimination and back substitution.
+2. Matrix solution using the inverse matrix: x = A-1
+b (if A has an inverse).
+3. Particular solution (to Ay = b) plus nullspace solution (to Az = 0).
+That vector space solution x = y + z is shown on the cover of the book.
+The cover shows the Four Fundamental Subspaces-the row space and nullspace are
+on the left side, the column space and the nulls pace of A
+T are on the right. It is not usual
+to put the central ideas of the subject on display like this! When you meet those four spaces
+in Chapter 3, you will understand why that picture is so central to linear algebra.
+Those were named the Four Fundamental Subspaces in my first book, and they start
+from a matrix A. Each row of A is a vector in n-dimensional space. When the matrix
+has m rows, each column is a vector in m-dimensional space. The crucial operation in
+linear algebra is to take linear combinations of column vectors. This is exactly the result
+of a matrix-vector multiplication. Ax is a combination of the columns of A.
+When we take all combinations Ax of the column vectors, we get the column space.
+If this space includes the vector b, we can solve the equation Ax = b.
+May I call special attention to Section 1.3, where these ideas come early-with two
+specific examples. You are not expected to catch every detail of vector spaces in one day!
+But you will see the first matrices in the book, and a picture of their column spaces.
+There is even an inverse matrix and its connection to calculus. You will be learning the
+language of linear algebra in the best and most efficient way: by using it.
+Every section of the basic course ends with a large collection of review problems. They
+ask you to use the ideas in that section--the dimension of the column space, a basis for
+that space, the rank and inverse and determinant and eigenvalues of A. Many problems
+look for computations by hand on a small matrix, and they have been highly praised. The
+Challenge Problems go a step further, and sometimes deeper. Let me give four examples:
+Section 2.1: Which row exchanges of a Sudoku matrix produce another Sudoku matrix?
+Section 2.7: If Pis a permutation matrix, why is some power p
+k equal to I?
+Section 3.4: If Ax= band Cx = b have the same solutions for every b, does A equal C?
+Section 4.1: What conditions on the four vectors r, n, c, £ allow them to be bases for
+the row space, the nullspace, the column space, and the left nullspace of a 2 by 2 matrix?
+The Start of the Course
+The equation Ax = b uses the language of linear combinations right away. The vector
+Ax is a combination of the columns of A. The equation is asking for a combination that
+produces b. The solution vector x comes at three levels and all are important:
+1. Direct solution to find x by forward elimination and back substitution.
+2. Matrix solution using the inverse matrix: x = A-1
+b (if A has an inverse).
+3. Particular solution (to Ay = b) plus nullspace solution (to Az = 0).
+That vector space solution x = y + z is shown on the cover of the book.
+The cover shows the Four Fundamental Subspaces-the row space and nullspace are
+on the left side, the column space and the nulls pace of A
+T are on the right. It is not usual
+to put the central ideas of the subject on display like this! When you meet those four spaces
+in Chapter 3, you will understand why that picture is so central to linear algebra.
+Those were named the Four Fundamental Subspaces in my first book, and they start
+from a matrix A. Each row of A is a vector in n-dimensional space. When the matrix
+has m rows, each column is a vector in m-dimensional space. The crucial operation in
+linear algebra is to take linear combinations of column vectors. This is exactly the result
+of a matrix-vector multiplication. Ax is a combination of the columns of A.
+When we take all combinations Ax of the column vectors, we get the column space.
+If this space includes the vector b, we can solve the equation Ax = b.
+May I call special attention to Section 1.3, where these ideas come early-with two
+specific examples. You are not expected to catch every detail of vector spaces in one day!
+But you will see the first matrices in the book, and a picture of their column spaces.
+There is even an inverse matrix and its connection to calculus. You will be learning the
+language of linear algebra in the best and most efficient way: by using it.
+Every section of the basic course ends with a large collection of review problems. They
+ask you to use the ideas in that section--the dimension of the column space, a basis for
+that space, the rank and inverse and determinant and eigenvalues of A. Many problems
+look for computations by hand on a small matrix, and they have been highly praised. The
+Challenge Problems go a step further, and sometimes deeper. Let me give four examples:
+Section 2.1: Which row exchanges of a Sudoku matrix produce another Sudoku matrix?
+Section 2.7: If Pis a permutation matrix, why is some power p
+k equal to I?
+Section 3.4: If Ax= band Cx = b have the same solutions for every b, does A equal C?
+Section 4.1: What conditions on the four vectors r, n, c, £ allow them to be bases for
+the row space, the nullspace, the column space, and the left nullspace of a 2 by 2 matrix?
+The Start of the Course
+The equation Ax = b uses the language of linear combinations right away. The vector
+Ax is a combination of the columns of A. The equation is asking for a combination that
+produces b. The solution vector x comes at three levels and all are important:
+1. Direct solution to find x by forward elimination and back substitution.
+2. Matrix solution using the inverse matrix: x = A-1
+b (if A has an inverse).
+3. Particular solution (to Ay = b) plus nullspace solution (to Az = 0).
+That vector space solution x = y + z is shown on the cover of the book.
